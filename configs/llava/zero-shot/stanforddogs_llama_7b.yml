@@ -1,0 +1,13 @@
+---
+experiment:
+  data_dir:
+  dataset: 'StanfordDogs'
+training:
+  eval_val_every: 1
+#  max_epochs: 35
+  batch_size: 4
+  test_batch_size: 16
+  test_set: test
+  topk: 1
+  workers: 8
+

@@ -1,0 +1,16 @@
+{
+    "patch_aug_enabled": true,
+    "patch_size": 16,
+    "stride": 16,
+    "aug_ops": [
+        "Identity",
+        "AutoContrast",
+        "Equalize",
+        "Brightness",
+        "Contrast",
+        "Color",
+        "Sharpness"
+    ],
+    "N": 2,
+    "M": 7
+}
